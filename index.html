@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Weather Dashboard</h1>
+    </header>
+    <main>
+        <aside class="city-search">
+            <form>
+                <label id="city-search-label" for="cityInput">Search for a City:</label>
+                <input type="text" id="city-input" name="cityInput">
+            </form>
+            <div class="rec-cities">
+
+            </div>
+        </aside>
+        <section class="current-weather">
+            <h2 id="city-date-cond"></h2>
+            <p id="temp"></p>
+            <p id="hum"></p>
+            <p id="wind"></p>
+            <p id="uvi"></p>
+        </section>
+        <section class="five-day">
+            <h2>5-Day Forecast</h2>
+            <div class="weather-cards">
+                <div class="dayOne">
+                    <p id="date"></p>
+                    <p id="cond"></p>
+                    <p id="temp"></p>
+                    <p id="hum"></p>
+                </div>
+                <div class="dayTwo">
+                    <p id="date"></p>
+                    <p id="cond"></p>
+                    <p id="temp"></p>
+                    <p id="hum"></p>
+                </div>
+                <div class="dayThree">
+                    <p id="date"></p>
+                    <p id="cond"></p>
+                    <p id="temp"></p>
+                    <p id="hum"></p>
+                </div>
+                <div class="dayFour">
+                    <p id="date"></p>
+                    <p id="cond"></p>
+                    <p id="temp"></p>
+                    <p id="hum"></p>
+                </div>
+                <div class="dayFive">
+                    <p id="date"></p>
+                    <p id="cond"></p>
+                    <p id="temp"></p>
+                    <p id="hum"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
