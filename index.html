@@ -16,13 +16,16 @@
             <form>
                 <label id="city-search-label" for="cityInput">Search for a City:</label>
                 <input type="text" id="city-input" name="cityInput">
+                <input type="button" id="city-input-search" value="Submit">
             </form>
-            <div class="rec-cities">
-
+            <div class="recent-cities">
+                <ul class="cities-list">
+                    
+                </ul>
             </div>
         </aside>
         <section class="current-weather">
-            <h2 id="city-date-cond"></h2>
+            <h2 id="city-date"></h2>
             <p id="temp"></p>
             <p id="hum"></p>
             <p id="wind"></p>
@@ -31,31 +34,31 @@
         <section class="five-day">
             <h2>5-Day Forecast</h2>
             <div class="weather-cards">
-                <div class="dayOne">
+                <div class="1">
                     <p id="date"></p>
                     <p id="cond"></p>
                     <p id="temp"></p>
                     <p id="hum"></p>
                 </div>
-                <div class="dayTwo">
+                <div class="2">
                     <p id="date"></p>
                     <p id="cond"></p>
                     <p id="temp"></p>
                     <p id="hum"></p>
                 </div>
-                <div class="dayThree">
+                <div class="3">
                     <p id="date"></p>
                     <p id="cond"></p>
                     <p id="temp"></p>
                     <p id="hum"></p>
                 </div>
-                <div class="dayFour">
+                <div class="4">
                     <p id="date"></p>
                     <p id="cond"></p>
                     <p id="temp"></p>
                     <p id="hum"></p>
                 </div>
-                <div class="dayFive">
+                <div class="5">
                     <p id="date"></p>
                     <p id="cond"></p>
                     <p id="temp"></p>
@@ -64,5 +67,10 @@
             </div>
         </section>
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
